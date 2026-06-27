@@ -31,6 +31,7 @@ piece is built to work with the others:
 | 🧪 **Selenium Boot** | Zero-boilerplate Java framework — driver lifecycle, smart waits, retries, parallel, HTML reports, API testing, accessibility-first locators | [`selenium-boot`](https://github.com/seleniumboot/selenium-boot) · [Maven Central](https://central.sonatype.com/artifact/io.github.seleniumboot/selenium-boot) |
 | 🤖 **Selenium MCP** | An MCP server that lets Claude / Copilot drive a real browser and **generate ready-to-run tests** — TestNG, JUnit 5, Page Object, Gherkin, Python, C# | [`selenium-mcp`](https://github.com/seleniumboot/selenium-mcp) · [PyPI](https://pypi.org/project/seleniumboot-mcp/) |
 | 🧩 **Seleniumboot MCP VS Code Extension** | One-click install — auto-registers the MCP server with GitHub Copilot & Claude Code, no manual setup | [Marketplace](https://marketplace.visualstudio.com/items?itemName=seleniumboot.selenium-boot-mcp) |
+| 🧠 **Selenium Boot MCP JetBrains Plugin** | Registers the MCP server with the JetBrains AI Assistant across IntelliJ IDEA, PyCharm & more | [JetBrains Marketplace](https://plugins.jetbrains.com/plugin/32516) |
 | 📖 **Documentation** | Full guides, configuration reference, deep dives | [seleniumboot.github.io](https://seleniumboot.github.io/selenium-boot) |
 | 🚀 **Example project** | A runnable consumer project covering every feature | [`selenium-boot-test`](https://github.com/seleniumboot/selenium-boot-test) |
 
