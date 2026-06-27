@@ -30,6 +30,7 @@ piece is built to work with the others:
 |---|---|---|
 | 🧪 **Selenium Boot** | Zero-boilerplate Java framework — driver lifecycle, smart waits, retries, parallel, HTML reports, API testing, accessibility-first locators | [`selenium-boot`](https://github.com/seleniumboot/selenium-boot) · [Maven Central](https://central.sonatype.com/artifact/io.github.seleniumboot/selenium-boot) |
 | 🤖 **Selenium MCP** | An MCP server that lets Claude / Copilot drive a real browser and **generate ready-to-run tests** — TestNG, JUnit 5, Page Object, Gherkin, Python, C# | [`selenium-mcp`](https://github.com/seleniumboot/selenium-mcp) · [PyPI](https://pypi.org/project/seleniumboot-mcp/) |
+| 🧩 **VS Code extension** | One-click install — auto-registers the MCP server with GitHub Copilot & Claude Code, no manual setup | [Marketplace](https://marketplace.visualstudio.com/items?itemName=RazaTech.seleniumboot-mcp) |
 | 📖 **Documentation** | Full guides, configuration reference, deep dives | [seleniumboot.github.io](https://seleniumboot.github.io/selenium-boot) |
 | 🚀 **Example project** | A runnable consumer project covering every feature | [`selenium-boot-test`](https://github.com/seleniumboot/selenium-boot-test) |
 
@@ -58,13 +59,18 @@ No `WebDriver` setup. No `@AfterMethod` teardown. No wait helpers. No retry conf
 
 ## Describe it. Let AI write it.
 
+**One-click in VS Code** — install the
+[Seleniumboot MCP extension](https://marketplace.visualstudio.com/items?itemName=RazaTech.seleniumboot-mcp);
+it auto-registers the MCP server with GitHub Copilot and Claude Code, no config needed.
+
+**Or via pip** for any MCP client:
+
 ```bash
 pip install seleniumboot-mcp
 ```
 
-Point Claude or GitHub Copilot at **Selenium MCP**, describe a flow in plain English, and it drives a
-real browser and writes the Selenium Boot test for you — with self-healing locators and codegen for
-Java / Python / C# / Playwright.
+Then describe a flow in plain English — the AI drives a real Chrome/Firefox browser and writes the
+Selenium Boot test for you, with self-healing locators and codegen for Java / Python / C# / Gherkin.
 
 ---
 
